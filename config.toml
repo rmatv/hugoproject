@@ -1,0 +1,96 @@
+baseURL = "rmatv.github.io"
+languageCode = "ru-ru"
+title = "R.’s"
+paginate = 3
+
+DefaultContentLanguage = "ru"
+copyright = "2017–2020"
+
+pygmentsstyle = "solarized-dark"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+summaryLength = 20
+
+[params]
+subtitle = "в гезельшафте киселя не варят"
+featherIconsCDN = true
+mode = "light" # "dark", "auto", "light"
+# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+# customJS = ["https://code.jquery.com/jquery-3.4.1.js", "js/custom1.js"]  # Custom JS script
+
+[languages]
+[languages.ru]
+languageName = "Русский"
+title = "Роман Матвиенко"
+weight = 1
+subtitle = "в гезельшафте киселя не варят"
+
+[[menu.main]]
+name = "Главная"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Блог"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "CV"
+url = "files/cv_russian.pdf"
+weight = 3
+
+[[params.social]]
+name = "Email"
+icon = "mail"
+url = "mailto:r.a.matvienko@gmail.com"
+
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
+[languages.en]
+languageName = "English"
+title = "Roman Matvienko"
+weight = 2
+subtitle = "no kissel is brewed in the _Gesellschaft_"
+
+[[languages.en.menu.main]]
+url    = "/en/"
+name   = "Home"
+weight = 1
+
+#[[languages.en.menu.main]]
+#url    = "/en/posts"
+#name   = "Blog"
+#weight = 2
+
+[[languages.en.menu.main]]
+name = "CV"
+url = "files/cv_english.pdf"
+weight = 3
+
+
+[taxonomies]
+tag = "tags"
+
+[markup]
+[markup.goldmark.renderer]
+unsafe = true
+math = true
+[markup.highlight]
+codeFences = true
+guessSyntax = false
+hl_Lines = ""
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+noClasses = true
+style = "github"
+tabWidth = 4
+
+[permalinks]
+posts = "/:year/:month/:slug/"
