@@ -1,4 +1,4 @@
-baseURL = "rmatv.github.io"
+baseURL = "https://rmatv.github.io/"
 languageCode = "ru-ru"
 title = "R.’s"
 paginate = 3
