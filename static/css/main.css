@@ -30,6 +30,7 @@ p.small {
 }
 
 p.caption {
+    text-align: center;
     margin: 0;
     font-size: 0.875em;
     font-style: italic;
@@ -83,7 +84,7 @@ figcaption {
     line-height: 1.6em;
     margin-left: 1em;
     margin-bottom: 1.6em;
-    font-style: italic;
+    font-style: normal;
 }
 
 fieldset {
@@ -139,9 +140,9 @@ h3 {
 }
 
 h4 {
-    font-size: 1.125em;
-    line-height: 1.3333333333333333em;
-    margin-bottom: 1.3333333333333333em;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 h5, h6 {
