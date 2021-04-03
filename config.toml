@@ -4,7 +4,7 @@ title = "R.’s"
 paginate = 3
 
 DefaultContentLanguage = "ru"
-copyright = "2017–2020"
+copyright = "2017–2021"
 
 pygmentsstyle = "solarized-dark"
 pygmentscodefences = true
